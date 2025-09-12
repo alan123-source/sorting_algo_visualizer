@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALGORITHM VISUALIZER</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+
+ </head>
+ <body>
+
+  <nav>
+        <div class="nav-left">
+          <video class="logo-video" autoplay loop muted playsinline>
+
+            <source src="Thynk Unlimited.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="nav-right">
+            <a>Home</a>
+            <a>GitHub</a>
+            <a>About</a>
+        </div>
+ </nav>
+    <div class="main-content">
+    <div class="description-wrapper">
+      <div class="description-container">
+         <div class="text-description"></div>
+      </div>
+      <button class="toggle-code-btn">Show Code</button>
+
+  <div class="code-container" style="display:none;">
+    <h3>Python Code:</h3>
+    <pre><code class="js-algo-code"></code></pre>
+  </div>
+</div>
+      <div class="visualizer-container">
+        <div class="algorithm_buttons">
+         <button class="bubble_button">BUBBLE SORT</button>
+         <button class="insertion_button">INSERTION SORT </button>
+         <button class="merge_button">MERGE SORT</button>
+        </div>
+
+        <div class="manual-input-control">
+           <label for="manual-input">ENTER ARRAY:</label>
+           <input type="text" class="manual-input" placeholder="values between 10-100">
+           <button class="manual-generate-button">RENDER ARRAY</button>
+
+
+        </div>
+
+        <div class="bars-container"></div>
+        <div class="controls"></div>
+      </div>
+  </div>
+
+  <footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>&copy; 2025 Algorithm Visualizer. All rights reserved.</p>
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
+  <script src="./scripts/app.js" type="module"></script>
+
+ </body>
+ </html>
