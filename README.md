@@ -1,0 +1,1 @@
+This is sorting visualizer which i built  to enhance my skills in javascript and currently added two sorting algorithms and working on the third one by working on this i become more familirized with javascript concepts
